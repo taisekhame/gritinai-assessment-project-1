@@ -1,0 +1,80 @@
+/* ============================================================
+   GLOBAL STYLES ONLY
+   This file contains only the base/reset styles and CSS variables.
+   You are responsible for writing all section and layout styles below.
+   Do not remove anything in this file — build on top of it.
+============================================================ */
+
+/* --- CSS Variables (Design Tokens) ---
+   Change these values to customise the colour scheme of your CV.
+   Use them throughout your CSS with var(--variable-name).
+*/
+:root {
+  --text-color: #1a1c20;
+  --link-color: #4a76ee;
+  --background-color: #eeeff1;
+  --heading-color: #1a1c20;
+  --border-color: #d3d3d3;
+}
+
+/* --- Reset ---
+   Removes default browser spacing and sets box-sizing
+   so padding and borders are included in element widths.
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --- Smooth Scrolling ---
+   Makes anchor links (#skills, #contact, etc.) scroll smoothly.
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+/* --- Body Defaults ---
+   Sets the font, text colour, background, and max width for the page.
+   The font-family name must match the Google Font you imported in index.html.
+*/
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* --- Default Link Style ---
+   Sets a base colour and removes underlines from all anchor tags.
+*/
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+/* --- Images ---
+   Prevents images from overflowing their containers.
+*/
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* --- Lists ---
+   Removes default bullet points and indentation from lists.
+   You can re-add list styles in specific sections as needed.
+*/
+ul {
+  list-style: none;
+}
+
+
+/* ============================================================
+   YOUR STYLES START HERE
+   Write your CSS below this line.
+   Work through the page section by section:
+   nav, .profile-section, .skills-section, .education-section,
+   .experience-section, .reference-section, .contact-section
+============================================================ */

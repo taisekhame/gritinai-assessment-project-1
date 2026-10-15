@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts: Replace this link with your own font choice from https://fonts.google.com -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons: https://fontawesome.com -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Your stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Your Name - CV</title>
+</head>
+<body>
+
+  <!-- ============================================================
+    NAVBAR
+    Contains your name on the left and social/contact links on the right.
+    Replace the href values and icon classes with your own.
+    Font Awesome brand icons: https://fontawesome.com/icons?d=gallery&s=brands
+  ============================================================ -->
+  <nav>
+    <div class="left">
+      <a href="/">Your Name</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>GitHub</span>
+      </a>
+
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+
+      <a href="mailto:you@example.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ============================================================
+      SECTION 1: PROFILE
+      Your photo, name, a short bio, and quick-jump links to other sections.
+      Replace the src, alt text, heading, and paragraph with your own content.
+    ============================================================ -->
+    <section class="profile-section">
+
+      <div class="text">
+        <h2>Hi, I'm Your Name 👋</h2>
+
+        <p>
+          Write a short professional summary here. Who are you, what do you do,
+          and what are you looking for? Keep it to 3 to 4 sentences.
+        </p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+
+          <a href="#education">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Education</span>
+          </a>
+
+          <a href="#experience">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Experience</span>
+          </a>
+
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <!-- Replace with your own photo. Supported formats: jpg, png, webp -->
+        <img src="images/profile-photo.webp" alt="Your Name profile photo">
+      </div>
+
+    </section>
+
+
+    <!-- ============================================================
+      SECTION 2: SKILLS
+      List your technical and soft skills.
+      For each skill, add an image logo from the images/ folder
+      or use a Font Awesome icon instead.
+      You can add or remove .cell blocks as needed.
+    ============================================================ -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+
+      <p class="text">
+        A brief sentence about your skill set and what you enjoy working with.
+      </p>
+
+      <div class="cells">
+
+        <!-- SKILL ITEM: Replace the image and label with your own skill -->
+        <div class="cell">
+          <!-- Option A: Use an image logo saved in your images/ folder -->
+          <!-- <img src="images/html-logo.webp" alt="HTML logo"> -->
+
+          <!-- Option B: Use a Font Awesome icon instead of an image -->
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML</span>
+        </div>
+
+        <div class="cell">
+          <i class="fa-brands fa-css3-alt"></i>
+          <span>CSS</span>
+        </div>
+
+        <div class="cell">
+          <i class="fa-brands fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+
+        <!-- Add more .cell blocks here for additional skills -->
+
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      SECTION 3: EDUCATION
+      List your educational background, most recent first.
+      Copy the .entry block to add more entries.
+    ============================================================ -->
+    <section id="education" class="education-section">
+      <h2>Education</h2>
+
+      <div class="entry">
+        <h3>Degree or Qualification Name</h3>
+        <p class="institution">Institution Name</p>
+        <p class="date">Year Started — Year Ended (or Present)</p>
+        <p class="description">
+          Brief description of what you studied or key achievements.
+        </p>
+      </div>
+
+      <!-- Copy this block for additional education entries -->
+      <div class="entry">
+        <h3>Another Qualification</h3>
+        <p class="institution">Institution Name</p>
+        <p class="date">Year</p>
+        <p class="description">Brief description.</p>
+      </div>
+
+    </section>
+
+
+    <!-- ============================================================
+      SECTION 4: EXPERIENCE
+      List your work or volunteer experience, most recent first.
+      Copy the .entry block to add more roles.
+    ============================================================ -->
+    <section id="experience" class="experience-section">
+      <h2>Experience</h2>
+
+      <div class="entry">
+        <h3>Job Title</h3>
+        <p class="institution">Company or Organisation Name</p>
+        <p class="date">Month Year — Month Year (or Present)</p>
+        <p class="description">
+          Describe your responsibilities and what you achieved in this role.
+          Use specific examples where possible.
+        </p>
+      </div>
+
+      <!-- Copy this block for additional experience entries -->
+      <div class="entry">
+        <h3>Another Role</h3>
+        <p class="institution">Company Name</p>
+        <p class="date">Month Year — Month Year</p>
+        <p class="description">Brief description of your role.</p>
+      </div>
+
+    </section>
+
+
+    <!-- ============================================================
+      SECTION 5: REFERENCE
+      One professional reference who can speak to your work.
+      Replace the photo, name, title, and quote with a real reference.
+      If you do not have a reference yet, you may write "Available on request."
+    ============================================================ -->
+    <section id="reference" class="reference-section">
+      <h2>Reference</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/reference-photo.webp" alt="Reference person photo">
+          <p>Reference Full Name</p>
+          <p>Their Job Title</p>
+        </div>
+
+        <div class="text">
+          "Write a short testimonial or professional quote from your reference here.
+          If you have not received one yet, you can write: Available on request."
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      SECTION 6: CONTACT
+      Your contact information and a simple contact form.
+      Replace the paragraph text with your own contact details.
+      Note: The form will not send emails on its own.
+      That requires a backend or a service like Formspree (https://formspree.io).
+    ============================================================ -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          <p>
+            Write a short message inviting people to reach out.
+            Include your preferred contact method, city or country,
+            and any other relevant details.
+          </p>
+
+          <!-- You can also list contact details directly here -->
+          <ul>
+            <li><i class="fa-solid fa-envelope"></i> you@example.com</li>
+            <li><i class="fa-brands fa-linkedin"></i> linkedin.com/in/yourprofile</li>
+            <li><i class="fa-brands fa-github"></i> github.com/yourusername</li>
+          </ul>
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your full name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="your@email.com">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
